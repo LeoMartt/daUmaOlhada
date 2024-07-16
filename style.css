@@ -1,8 +1,7 @@
 /* by encoded mabel 
 linktr.ee/mabelolivera10
 */
-
-@import url("https://fonts.googleapis.com/css?family=Gaegu");
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CL:wght@100..400&family=Playwrite+CU:wght@100..400&display=swap');
 .about {
   position: fixed;
   z-index: 10;
@@ -18,12 +17,12 @@ linktr.ee/mabelolivera10
 
 
 body {
-  background-color: #ffa87a;
+  background-color: #00000085;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Gaegu", cursive;
+  font-family: "Playwrite CL", cursive;
   overflow: hidden;
 }
 
@@ -32,7 +31,7 @@ body {
   position: absolute;
   top: 0;
   z-index: 1;
-  color: #010503;
+  color: #ffffffe1;
   transition: all 0.5s 0.5s ease;
   width: auto;
   height: auto;
@@ -45,12 +44,12 @@ body {
 }   
 
 .reload:hover {
-  color: white;
+  color: rgb(0, 0, 0);
   top: 5px;
 }
 
 .reload:after {
-  background-color: #f52c15;
+  background-color: #ffffff;
   content: "";
   width: 0;
   height: 2px;
@@ -77,8 +76,8 @@ body {
 
 /* main heart */
 .heart {
-  width: 120px;
-  height: 120px;
+  width: 820px;
+  height: 820px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -88,8 +87,8 @@ body {
 }
 
 .heart:hover {
-  width: 180px;
-  height: 180px;
+  width: 500px;
+  height: 500px;
   cursor: pointer;
 }
 
@@ -116,7 +115,7 @@ body {
 .heart:before,
 .heart:after {
   position: absolute;
-  background-color: #f52c15;
+  background-color: #ffffff;
   content: "";
   width: 50%;
   height: 75%;
@@ -136,8 +135,8 @@ body {
 
 /* active state to grow the heart */
 .heart.active {
-  width: 550px;
-  height: 550px;
+  width: 900px;
+  height: 900px;
   animation: none !important;
   transition: all 1s 0.2s ease;
   cursor: auto;
@@ -146,14 +145,14 @@ body {
 }
 
 .heart:hover.active {
-  width: 540px;
-  height: 540px;
+  width: 740px;
+  height: 740px;
 }
 
 /* title - click */
 .heart .title {
   opacity: 1;
-  color: #f2f2f2;
+  color: #000000;
   position: absolute;
   transition: all 0.8s 0.5s ease;
   z-index: 1;
@@ -183,7 +182,7 @@ body {
 /* message */
 .heart .message {
   opacity: 0;
-  color: #f2f2f2;
+  color: #000000;
   transition: all 0.2s 0s ease;
   text-align: center;
   margin: 0 auto;
@@ -299,7 +298,7 @@ body {
 .heart4:before,
 .heart4:after {
   position: absolute;
-  background-color: #f52c15;
+  background-color: #ffffffe1;
   content: "";
   width: 50%;
   height: 90%;
@@ -320,17 +319,4 @@ body {
   transform: rotate(45deg);
   border-radius: 400px 400px 100px 0px;
   right: 10%;
-}
-
-
-.heart2 {
-  background-image: url('C:/Users/Leonardo/Alura/dedicatoria/coração adaptado/img1.png');
-}
-
-.heart3 {
-  background-image: url('C:/Users/Leonardo/Alura/dedicatoria/coração adaptado/img2.jpg');
-}
-
-.heart4 {
-  background-image: url('C:/Users/Leonardo/Alura/dedicatoria/coração adaptado/img3.jpg');
 }
