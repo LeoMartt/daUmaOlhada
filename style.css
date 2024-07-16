@@ -76,8 +76,8 @@ body {
 
 /* main heart */
 .heart {
-  width: 820px;
-  height: 820px;
+  width: 620px;
+  height: 620px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -87,8 +87,8 @@ body {
 }
 
 .heart:hover {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   cursor: pointer;
 }
 
