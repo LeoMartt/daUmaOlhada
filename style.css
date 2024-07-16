@@ -323,7 +323,6 @@ body {
 
 /* Classe para ocultar imagens */
 .hidden {
-  display: block;
   opacity: 0;
   transform: scale(0);
   transition: opacity 1s, transform 1s;
@@ -332,6 +331,7 @@ body {
 /* Classe para mostrar imagens quando a div.heart está ativa */
 .visible {
   opacity: 1;
+  display: block;
   transform: scale(1);
   transition: opacity 1s, transform 1s;
 }
