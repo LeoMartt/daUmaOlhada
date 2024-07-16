@@ -1,3 +1,4 @@
+
 /* by encoded mabel 
 linktr.ee/mabelolivera10
 */
@@ -84,7 +85,6 @@ body {
   align-items: center;
   transition: all 1s 0.2s ease;
   opacity: 1;
-  z-index: 2;
 }
 
 .heart:hover {
@@ -156,7 +156,7 @@ body {
   color: #000000;
   position: absolute;
   transition: all 0.8s 0.5s ease;
-  z-index: 1;
+  z-index: 3;
   text-align: center;
   margin: 0 auto;
   margin-top: -3%;
