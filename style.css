@@ -84,6 +84,7 @@ body {
   align-items: center;
   transition: all 1s 0.2s ease;
   opacity: 1;
+  z-index: 2;
 }
 
 .heart:hover {
@@ -355,6 +356,7 @@ body {
   left: 15%;
   width: 15vh; /* Ajuste o tamanho conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
+  z-index: 1;
 }
 
 .img2 {
@@ -363,4 +365,5 @@ body {
   right: 15%;
   width: 15vh; /* Ajuste o tamanho conforme necessário */
   height: auto; /* Mantém a proporção da imagem */
+  z-index: 1;
 }
